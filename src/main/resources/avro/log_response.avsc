@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "com.garm.sample.event",
+  "name": "LogResponse",
+  "version": "1",
+  "fields": [
+    { "name": "statusCode", "type": "string", "default": "" },
+    { "name": "responseTime", "type": "string", "default": "" },
+    { "name": "responseBody", "type": "bytes", "default": "" }
+  ]
+}

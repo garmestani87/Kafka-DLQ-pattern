@@ -1,0 +1,14 @@
+spring:
+  config:
+    use-legacy-processing: true
+  application:
+    name: dlq-example
+
+server:
+  port: 8090
+
+kafka:
+  bootstrap-servers: kafka_1:port,kafka_2:port,kafka_3:port
+  schema:
+    registry:
+      url: http://schema_registery_url:port
