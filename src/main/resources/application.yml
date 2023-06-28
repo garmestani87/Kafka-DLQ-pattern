@@ -1,6 +1,4 @@
 spring:
-  config:
-    use-legacy-processing: true
   application:
     name: dlq-example
 
